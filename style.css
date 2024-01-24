@@ -1,0 +1,70 @@
+#box-container {
+
+  outline: 10px;
+  background-color: rgb(176, 176, 176);
+  width: 300px;
+  border-style: solid;
+  border-radius: 10px;
+  height: 600px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+#page-container {
+
+  outline: 1px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+
+}
+
+#todo-header{
+  align-self: center;
+}
+
+.list-item{
+  height: 50px;
+  background-color: rgb(212, 212, 212);
+  width: 280px;
+  outline: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+ul {
+  list-style-type: none;
+  justify-content: center;
+  margin-left: -30px;
+
+}
+
+.form-div{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+#add-item-text{
+  width: 215px;
+  height: 25px;
+}
+
+#add-item-btn{
+
+  background-color: greenyellow;
+  width: 40px;
+  border-radius: 10px;
+  height: 30px;
+
+}
+
+#todo-list{
+  height: 430px;
+}
