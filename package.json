@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CSE437s/week-2-todo-app-kenwhitestone2/issues"
   },
-  "homepage": "https://github.com/CSE437s/week-2-todo-app-kenwhitestone2#readme"
+  "homepage": "https://github.com/CSE437s/week-2-todo-app-kenwhitestone2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
